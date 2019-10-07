@@ -4,7 +4,7 @@ import numpy as np
 # open webcam
 
 cap = cv2.VideoCapture(0)
-face_cascade = cv2.CascadeClassifier("/Users/vrishankgupta/Desktop/MLcbOnline/codes/machine-learning-winter-2018/class_04/haarcascade_frontalface_alt.xml")
+face_cascade = cv2.CascadeClassifier("cascade.xml")
 skip = 0
 face_data = []
 dataset_path = "./face_dataset/"
